@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Vue</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="test">{{ name }}</div>
+  <script>
+    var model = {
+      name: "김동빈"
+    };
+
+    var vm = new Vue({
+      el: "#test",
+      data: model
+    })
+  </script>
+</body>
+</html>
